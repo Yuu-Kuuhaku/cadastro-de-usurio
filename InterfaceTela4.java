@@ -54,13 +54,13 @@ public class InterfaceTela4 extends JFrame {
 
          
          if (!user.validar()) {
-            JOptionPane.showMessageDialog(this, "Usuário invalido ");
+            JOptionPane.showMessageDialog(this, "Usuario invalido ");
             return;
          } 
 
          dao.salvar(user);
 
-         JOptionPane.showMessageDialog(this, "Usuário salvo com sucesso!");
+         JOptionPane.showMessageDialog(this, "Usuario salvo com sucesso!");
 
       });
 
